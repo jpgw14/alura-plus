@@ -2,7 +2,7 @@
     --branco-principal: #ffffff;
     --cinza-secundario:   #c0c0c0;
     --botao-azul: #167bf7;
-    --cor-de-fundo: #00030c;
+    --cor-de-fundo: #184747;
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -11,10 +11,13 @@ body{
  
 
 * {
-    margin: 0;
+    margin: 011;
     padding: 0;
 }
-
-.principal {
-    background-image: url("images.jpeg");
-}
+.principal{
+    background-image: url("jp shop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+   }
