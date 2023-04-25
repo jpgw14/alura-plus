@@ -11,13 +11,30 @@ body{
  
 
 * {
-    margin: 011;
+    margin: 5;
     padding: 0;
 }
 .principal{
     background-image: url("jp shop.png");
     background-repeat: no-repeat;
     background-size: contain;
-    align-items: center;
-    text-align: center;
+    align-items:center;
+    text-align :center;
+    font-size: 20px;
    }
+.container--botao {
+    background-color: var(--botao-azul);
+    border-radius: 100px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: inline-table;
+    margin: 500px;
+}
+.container {
+    height: 50px;
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+}
+.secundario-imagem{
+
+}
